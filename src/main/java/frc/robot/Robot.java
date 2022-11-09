@@ -39,10 +39,10 @@ public class Robot extends TimedRobot {
   Spark bl = new Spark(3);
   Spark fl = new Spark(1);
 
-  float spd = 0.50f;
+  float spd = 0.35f;
   float side = 1.3f;
 
-  int drivetype = 1;
+  int drivetype = 2;
 
   @Override
   public void robotInit() {
